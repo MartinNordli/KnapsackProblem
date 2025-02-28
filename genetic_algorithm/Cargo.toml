@@ -1,0 +1,13 @@
+[package]
+name = "genetic_algorithm"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+rand = "0.8"
+csv = "1.1"
+plotters = { version = "0.3", features = ["evcxr"] }
